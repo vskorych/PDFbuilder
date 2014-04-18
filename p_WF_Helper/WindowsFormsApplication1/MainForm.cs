@@ -336,8 +336,6 @@ namespace WFHelper
             {
                 xslBox.Items.Clear();
             }
-
-
         }
 
 

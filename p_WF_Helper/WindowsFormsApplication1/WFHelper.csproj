@@ -91,9 +91,6 @@
     <Compile Include="HubEditList.Designer.cs">
       <DependentUpon>HubEditList.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menus.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="User_Classes\WorkWithRegistry.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>

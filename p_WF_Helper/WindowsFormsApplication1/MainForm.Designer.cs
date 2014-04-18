@@ -270,8 +270,7 @@
             this.Notify.BalloonTipTitle = "WF Helper";
             this.Notify.Icon = ((System.Drawing.Icon)(resources.GetObject("Notify.Icon")));
             this.Notify.Text = "WF Helper";
-            this.Notify.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.NotifyMouseDoubleClick);
-            this.Notify.MouseDown += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDown);
+          
             // 
             // ContextMenu2
             // 
@@ -306,7 +305,6 @@
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "   Web Forms Helper";
-            this.Deactivate += new System.EventHandler(this.MainFormDeactivate);
             this.Menu2.ResumeLayout(false);
             this.Menu2.PerformLayout();
             this.panel1.ResumeLayout(false);

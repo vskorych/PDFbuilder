@@ -135,3 +135,17 @@ D:\prog\p_WF_Helper\p_WF_Helper\WindowsFormsApplication1\bin\Debug\WFHelper.pdb
 D:\prog\p_WF_Helper\p_WF_Helper\WindowsFormsApplication1\obj\Debug\WFHelper.exe.manifest
 D:\prog\p_WF_Helper\p_WF_Helper\WindowsFormsApplication1\obj\Debug\WFHelper.application
 D:\prog\p_WF_Helper\p_WF_Helper\WindowsFormsApplication1\obj\Debug\WFHelper.csprojResolveAssemblyReference.cache
+D:\git\vskorych\p_WF_Helper\WindowsFormsApplication1\bin\Debug\WFHelper.exe.config
+D:\git\vskorych\p_WF_Helper\WindowsFormsApplication1\obj\Debug\WFHelper.exe
+D:\git\vskorych\p_WF_Helper\WindowsFormsApplication1\obj\Debug\WFHelper.pdb
+D:\git\vskorych\p_WF_Helper\WindowsFormsApplication1\bin\Debug\WFHelper.exe.manifest
+D:\git\vskorych\p_WF_Helper\WindowsFormsApplication1\bin\Debug\WFHelper.application
+D:\git\vskorych\p_WF_Helper\WindowsFormsApplication1\bin\Debug\WFHelper.exe
+D:\git\vskorych\p_WF_Helper\WindowsFormsApplication1\bin\Debug\WFHelper.pdb
+D:\git\vskorych\p_WF_Helper\WindowsFormsApplication1\obj\Debug\WFHelper.csprojResolveAssemblyReference.cache
+D:\git\vskorych\p_WF_Helper\WindowsFormsApplication1\obj\Debug\WFHelper.MainForm.resources
+D:\git\vskorych\p_WF_Helper\WindowsFormsApplication1\obj\Debug\WFHelper.HubEditList.resources
+D:\git\vskorych\p_WF_Helper\WindowsFormsApplication1\obj\Debug\WFHelper.Properties.Resources.resources
+D:\git\vskorych\p_WF_Helper\WindowsFormsApplication1\obj\Debug\WFHelper.csproj.GenerateResource.Cache
+D:\git\vskorych\p_WF_Helper\WindowsFormsApplication1\obj\Debug\WFHelper.exe.manifest
+D:\git\vskorych\p_WF_Helper\WindowsFormsApplication1\obj\Debug\WFHelper.application
