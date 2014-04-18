@@ -105,3 +105,6 @@ C:\Users\Карасик\Dropbox\Projects\p_WF_Helper\WindowsFormsApplication1\ob
 C:\Users\Карасик\Dropbox\Projects\p_WF_Helper\WindowsFormsApplication1\obj\Release\WFHelper.csproj.GenerateResource.Cache
 C:\Users\Карасик\Dropbox\Projects\p_WF_Helper\WindowsFormsApplication1\obj\Release\WFHelper.exe.manifest
 C:\Users\Карасик\Dropbox\Projects\p_WF_Helper\WindowsFormsApplication1\obj\Release\WFHelper.application
+C:\Users\Roman.Timrov\Documents\GitHub\PDFbuilder\p_WF_Helper\WindowsFormsApplication1\bin\Release\WFHelper.exe.config
+C:\Users\Roman.Timrov\Documents\GitHub\PDFbuilder\p_WF_Helper\WindowsFormsApplication1\obj\Release\WFHelper.exe
+C:\Users\Roman.Timrov\Documents\GitHub\PDFbuilder\p_WF_Helper\WindowsFormsApplication1\obj\Release\WFHelper.pdb

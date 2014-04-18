@@ -52,14 +52,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WFHelper.exe" size="62976">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WFHelper.exe" size="64000">
       <assemblyIdentity name="WFHelper" version="1.0.0.0" publicKeyToken="C6C71E3759CE9EBB" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>P6mnbtYnnM6Ke+mYbzqpIdoyTxU=</dsig:DigestValue>
+        <dsig:DigestValue>M1NnAvRAlOk8hh/xaQWJnSq0apY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
