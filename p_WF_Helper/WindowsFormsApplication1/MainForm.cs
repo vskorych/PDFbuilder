@@ -68,10 +68,40 @@ namespace WFHelper
 
              }
              _cleanBuildDeployProcess = new Process { StartInfo = psi2 };
-             _cleanBuildDeployProcess.Start();
+             try
+             {
 
+                 _cleanBuildDeployProcess.Start();
+             }
+             catch (System.Exception)
+             {
+                 System.Diagnostics.Debug.WriteLine("Some fail");
+             }
          
         
+        }
+        private void searchType_CheckStateChanged(object sender, EventArgs e)
+        {
+            List<String> globalCompaniesList = new List<String>();
+            if (searchTypeCheckBox.CheckState == CheckState.Checked)
+            {
+                try
+                {
+                    foreach (String d in Directory.GetDirectories(@"C:\jv\implementation\maps\"))
+                    {
+                        globalCompaniesList.AddRange(Directory.GetDirectories(d).Distinct().ToList());
+                    }
+                }
+                catch { }
+
+                RefreshComboBox(globalCompaniesList.Distinct().Select(n => n.Substring(n.LastIndexOf("\\", StringComparison.CurrentCulture) + 1)));
+
+            }
+            else
+            {
+                RefreshComboBox(_companyList);
+            }
+
         }
 
          public void CreatePDF()
@@ -79,7 +109,17 @@ namespace WFHelper
           
              ProcessStartInfo psi = new ProcessStartInfo("D:\\prog\\pdf.bat");
             _cleanBuildDeployProcess = new Process { StartInfo = psi };
-            _cleanBuildDeployProcess.Start();
+
+            try
+            {
+
+                _cleanBuildDeployProcess.Start();
+            }
+            catch (System.Exception)
+            {
+                System.Diagnostics.Debug.WriteLine("Fail, Please close your out.pdf");
+            }
+           
 
          
             _cleanBuildDeployProcess.WaitForExit();
@@ -464,6 +504,11 @@ namespace WFHelper
         }
 
         private void CompanyNameComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void searchTypeCheckBox_CheckedChanged(object sender, EventArgs e)
         {
 
         }

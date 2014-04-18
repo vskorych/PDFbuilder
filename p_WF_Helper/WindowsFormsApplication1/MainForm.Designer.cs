@@ -270,7 +270,6 @@
             this.Notify.BalloonTipTitle = "WF Helper";
             this.Notify.Icon = ((System.Drawing.Icon)(resources.GetObject("Notify.Icon")));
             this.Notify.Text = "WF Helper";
-          
             // 
             // ContextMenu2
             // 
@@ -287,6 +286,8 @@
             this.searchTypeCheckBox.TabIndex = 17;
             this.searchTypeCheckBox.Text = "Search on Hard Drive";
             this.searchTypeCheckBox.UseVisualStyleBackColor = true;
+            this.searchTypeCheckBox.CheckedChanged += new System.EventHandler(this.searchTypeCheckBox_CheckedChanged);
+            this.searchTypeCheckBox.CheckStateChanged += new System.EventHandler(this.searchType_CheckStateChanged);
             // 
             // MainForm
             // 
